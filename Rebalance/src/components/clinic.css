@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* .clinic{  
+    margin-top: 4%;
+    margin-left: 0%;
+    position: unset;
+    
+} */
+.chinmay{
+    text-align: center;
+    animation: text-animation 2s ease-in-out infinite;
+}  
+  @keyframes text-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .chinma{
+    background-color: white;
+    padding: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+.chua{
+
+  text-align: center;
+}
+
+/* .pictur {
+  width: 80%;
+  height: auto;
+  margin-left: 0%;
+
+} */
+
+/* Adjust the image size for smaller screens */
+/* @media (max-width: 768px) {
+  .pictur {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    margin-top: 70%;
+  }
+} */
+/* .clinic{
+ 
+  position: center;
+  margin-left: 10%;
+
+} */
+.side{
+  margin-top: 5%;
+  text-align: center;
+}
+.about{
+
+  margin-top: 4%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.contact{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: double;
+}
+.buton{
+ 
+ background-color: rgb(103, 156, 231);
+width: 100px;
+height: 40px;
+color: #ffffff;
+
+}
+
+.art{
+  border: 1px solid #528440;
+  width: 200px;
+ background-color: rgb(124, 181, 185);
+text-align: center;
+margin-left: 10px;
+
+}
+
+/* .special-offer{
+  margin-top: 10%;
+  color: rgb(193, 52, 14);
+  font-family: sans-serif;
+  
+} */
+.serv{
+  margin-top: 10%;
+  
+}
+/* .fontt{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+.textt{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  max-width: 100%; /* Ensures container does not exceed the device width */
+  padding: 0 20px; /* Add optional padding for better layout */
+  margin: 0 auto; 
+  margin-top: 0%;/* Centers the container horizontally */
+}
+
+.responsive-image {
+  width: 100%; /* Make the image fill the container horizontally */
+  height: auto; /* Automatically adjust the image height to maintain aspect ratio */
+}
+
+
+.abba{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  /* background-image: url('D:\khushi\khushii\src\components\images\fgr.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* src/components/ScrollingComponent.css */
+
+.scrolling-component {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scrolling-component.visible {
+  opacity: 1;
+}
+.scrolling-componentt {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.scrolling-componentt.visible {
+  opacity: 1;
+}
+.scrolling-componentty {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.scrolling-componentty.visible {
+  opacity: 1;
+}
+.adva{
+  margin-top: 5%;
+}
+
+/* .maintain{
+  margin-left: 20%;
+  margin-right: 10%;
+ 
+} */
+
+/* .box{
+
+  width: 300px;
+  border: 1px solid #000;
+  background-color: rgb(250, 250, 250);
+  margin-top: 5%;
+  margin-left: 1%;
+  
+} */
+
+.box {
+  width: 290px;
+  border: 1px solid #000;
+  background-color: rgb(250, 250, 250);
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middu{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+}
+
+.pht, .as, .asd{
+  box-shadow: 1px 7px 4px rgba(0, 0, 0, 0.2); /* Adjust the shadow properties as needed */
+}
+.down{
+
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #51629f;
+  background-color: #ffffff;
+  
+}
+/* @keyframes glitter {
+  0% {
+    color: #c28a8a;
+    text-shadow: none;
+  }
+  50% {
+    color: #a00a0a;
+    text-shadow: 0 0 5px #ab4440, 0 0 4px #c28a8a, 0 0 16px #c28a8a;
+  }
+  100% {
+    color: #be2424;
+    text-shadow: none;
+  }
+} */
+
+/* .down{
+  animation: glitter 2s infinite;
+} */
+
+
+/* .about{
+  width: 50%;
+  border: 1px solid #000;
+  background-color: rgb(250, 250, 250);
+  margin-top: 5%;
+  margin-left: 10%;
+  text-align: center;
+  height: auto; 
+} */
+.about {
+  width: 50%;
+  border: 1px solid #000;
+  background-color: rgb(250, 250, 250);
+  margin-top: 5%;
+  margin-left: 10%;
+  text-align: center;
+  height: auto;
+}
+.scrolling-component {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about {
+  flex-basis: 33.33%;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .scrolling-component {
+    flex-direction: column;
+  }
+
+  .about {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-gallery img {
+  max-width: 90%;
+  height: auto;
+  margin: 5px;
+}
+
+@media (min-width: 768px) {
+  .image-gallery img {
+    flex-basis: 33.33%;
+  }
+}
+/* open gallery sathi  */
+.buttooooo{
+  
+  color: #3355cf;
+  text-decoration: underline;
+  text-align: center;
+}
+/* contact us sathi */
+.buttoooo{
+  
+  color: #040405;
+
+  text-align: center;
+}
+/* .serv{
+ 
+  width: 150px;
+  border: 1px solid #000;
+  background-color: rgb(192, 216, 218);
+  text-align: center;
+
+  
+} */
+.serv {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: rgb(192, 216, 218);
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* .pht{
+  width: 350px;
+  margin-left: 10px;
+  position: center;
+}
+.as{
+
+  width: 350px;
+  margin-left: 10px;
+}
+.asd{
+  width: 350px;
+  margin-left: 10px;
+}
+.asdf{
+  width: 350px;
+  margin-left: 10px;
+} */
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 350px;
+  margin: 0 10px 20px;
+}
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-container .text-container {
+  width: 350px;
+  margin: 0 10px;
+}
+
+.content-container h4 {
+  margin-top: 20px;
+}
+
+.content-container h7 {
+  margin-top: 10px;
+}
+.special-offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  color: rgb(213, 93, 93);
+}
+
+.fontt {
+  text-align: center;
+ 
+}
+
+@media (max-width: 768px) {
+  .special-offer {
+    height: auto;
+  }
+}
+
+body {
+
+  opacity: 100; 
+}
+
+/* Map */
+.containerr {
+  max-width: 75%; /* Ensures container does not exceed the device width */
+  padding: 0 20px; /* Add optional padding for better layout */
+  margin: 0 auto; 
+  margin-top: 0%;/* Centers the container horizontally */
+}
+
+.responsive-imagee {
+  width: 100%; /* Make the image fill the container horizontally */
+  height: auto; /* Automatically adjust the image height to maintain aspect ratio */
+}
