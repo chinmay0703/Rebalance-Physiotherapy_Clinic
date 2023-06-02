@@ -40,7 +40,7 @@ const Contact = () => {
     </div>
     <div className='about'>
         <h3 className='contact'>Address</h3>
-    <button className='buton' src=""> <Nav.Link href="https://goo.gl/maps/5kjjRq2Gz4bw7iQY8">LOCATION</Nav.Link></button>
+    <button className='buton' src=""> <Nav.Link href="https://goo.gl/maps/PY8R7FATpd2QFiPS7">LOCATION</Nav.Link></button>
    
     <h3>  </h3>
     <h3>  </h3>
